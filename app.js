@@ -57,8 +57,8 @@ setTimeout(() => {
   } else if (getOS() == 'Mac OS') {
     window.location.href = 'https://apps.apple.com/us/genre/mac/id39?mt=12';
   } else if (getOS() == 'Android') {
-      window.location.href = 'https://play.google.com/store';
-    }
+    window.location.href = 'https://play.google.com/store';
+  } else {
     window.location.href = 'https://www.microsoft.com/en-us/store/apps/windows';
-  
+  }
 }, 4000);
