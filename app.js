@@ -52,11 +52,11 @@ window.onload = function () {
 };
 
 setTimeout(() => {
-  if (getOS() === 'iOS') {
+  if (getOS() == 'iOS') {
     window.location.href = 'https://www.apple.com/app-store/';
-  } else if (getOS() === 'Mac OS') {
+  } else if (getOS() == 'Mac OS') {
     window.location.href = 'https://apps.apple.com/us/genre/mac/id39?mt=12';
-  } else if (getOS() === 'Android') {
+  } else if (getOS() == 'Android') {
       window.location.href = 'https://play.google.com/store';
     }
     window.location.href = 'https://www.microsoft.com/en-us/store/apps/windows';
