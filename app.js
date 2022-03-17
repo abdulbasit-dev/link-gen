@@ -53,12 +53,20 @@ window.onload = function () {
 
 setTimeout(() => {
   if (getOS() == 'iOS') {
+    // alert(getOS());
     return (window.location.href = 'https://www.apple.com/app-store/');
   } else if (getOS() == 'Mac OS') {
+    // alert(getOS());
+
     return (window.location.href = 'https://apps.apple.com/us/genre/mac/id39?mt=12');
   } else if (getOS() == 'Android') {
+    // alert(getOS());
+
     return (window.location.href = 'https://play.google.com/store');
-  } else {
+  } else if (getOS() == 'Windows') {
+    // alert(getOS());
     return (window.location.href = 'https://www.microsoft.com/en-us/store/apps/windows');
+  } else {
+    alert('No OS Detected');
   }
 }, 4000);
